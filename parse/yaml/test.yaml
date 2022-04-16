@@ -1,0 +1,12 @@
+- name: wanger
+  age: 24
+  address: beijing
+  hobby:
+    - literature
+    - social
+- name: 冬哥
+  age: 30
+  address: chengdu
+  hobby:
+    - basketball
+    - guitar
