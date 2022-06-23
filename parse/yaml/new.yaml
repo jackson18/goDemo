@@ -1,0 +1,11 @@
+- name: 华子
+  age: 28
+  address: shenzhen
+  hobby:
+    - 王者荣耀
+- name: 乔克
+  age: 30
+  address: chongqing
+  hobby:
+    - 阅读
+    - 王者荣耀

@@ -14,6 +14,9 @@ func main() {
 	// 指定时间
 	fmt.Println("指定时间: ", time.Date(2022, 4, 17, 10, 12, 30, 0, time.Local))
 
+	// 创建本地时间，并携带时区
+	fmt.Println("创建本地时间，并携带时区：", time.Unix(time.Now().Unix(), 0).String())
+
 	// 时间转str
 	t1 := time.Now()
 	fmt.Println("时间转str: ", t1.Format("2006-1-2 15:04:05"))
